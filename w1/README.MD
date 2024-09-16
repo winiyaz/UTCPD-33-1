@@ -3,12 +3,14 @@
 2. [JSON Awesome Viewer](#json-awesome-viewer)
 3. [Api Used](#api-used)
    1. [Other APIS being tested](#other-apis-being-tested)
+4. [Other websites mentioned](#other-websites-mentioned)
 
 
 # W1 - Version of the Work 
 
 1. Testing the API work here 
 2. Need to look into formatting this properly
+
 
 # JSON Awesome Viewer 
 - Chrome extension to see JSON in a nice format
@@ -19,3 +21,9 @@ http://api.open-notify.org/iss-now.json
 - Correct api 
   
 ## Other APIS being tested 
+
+
+# Other websites mentioned 
+
+https://www.latlong.net/ 
+- For checking latitude and longitude 

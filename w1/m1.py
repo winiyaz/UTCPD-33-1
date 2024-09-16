@@ -23,8 +23,17 @@ install(show_locals=True)
 
 import requests as rq
 
-url = "http://api.open-notify.org/iss-now.json"
-repo = rq.get(url).json()
+def test_url():
+    """ Testin the url here  """
+    url = "http://api.open-notify.org/iss-now.json"
+
+    # Capture the response here
+    repo = rq.get(url)
+    repo.raise_for_status()
+
+    # Extract the data here
+    resdata = repo.json()['iss_position']['longitude']
+    pprint(resdata, expand_all=True)
 
 # Using the 
-pprint(repo, expand_all=True)
+test_url()
