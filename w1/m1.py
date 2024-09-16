@@ -24,5 +24,7 @@ install(show_locals=True)
 import requests as rq
 
 url = "http://api.open-notify.org/iss-now.json"
-rq.get(url).json()
+repo = rq.get(url).json()
 
+# Using the 
+pprint(repo, expand_all=True)
