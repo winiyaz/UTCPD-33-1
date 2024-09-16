@@ -1,4 +1,12 @@
+
+1. [W1 - Version of the Work](#w1---version-of-the-work)
+2. [JSON Awesome Viewer](#json-awesome-viewer)
+
+
 # W1 - Version of the Work 
 
 1. Testing the API work here 
 2. Need to look into formatting this properly
+
+# JSON Awesome Viewer 
+- Chrome extension to see JSON in a nice format
