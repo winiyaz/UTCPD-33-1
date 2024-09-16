@@ -23,6 +23,6 @@ install(show_locals=True)
 
 import requests as rq
 
-url = "https://api.open-notify.org/iss-now.json"
+url = "http://api.open-notify.org/iss-now.json"
 rq.get(url).json()
 
