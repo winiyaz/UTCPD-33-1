@@ -2,3 +2,6 @@
 
 import requests as rq
 
+url = ""
+rq.get(url).json()
+
